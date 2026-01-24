@@ -16,6 +16,6 @@ public class Worker extends Person{
 
     // toString using the superclasses toString as a base.
     public String toString() {
-        return super.toString() + "Job: " + job;
+        return super.toString() + " Job: " + job;
     }
 }
